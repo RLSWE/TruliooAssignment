@@ -9,24 +9,20 @@
 /* Begin PBXBuildFile section */
 		A235D8F029BE9085000E19A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D8EF29BE9085000E19A9 /* AppDelegate.swift */; };
 		A235D8F229BE9085000E19A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D8F129BE9085000E19A9 /* SceneDelegate.swift */; };
-		A235D8F429BE9085000E19A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D8F329BE9085000E19A9 /* ViewController.swift */; };
 		A235D8F729BE9085000E19A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A235D8F529BE9085000E19A9 /* Main.storyboard */; };
 		A235D8F929BE9086000E19A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A235D8F829BE9086000E19A9 /* Assets.xcassets */; };
 		A235D8FC29BE9086000E19A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A235D8FA29BE9086000E19A9 /* LaunchScreen.storyboard */; };
-		A235D90729BE9086000E19A9 /* TruliooAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D90629BE9086000E19A9 /* TruliooAssignmentTests.swift */; };
-		A235D91129BE9086000E19A9 /* TruliooAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D91029BE9086000E19A9 /* TruliooAssignmentUITests.swift */; };
-		A235D91329BE9086000E19A9 /* TruliooAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D91229BE9086000E19A9 /* TruliooAssignmentUITestsLaunchTests.swift */; };
+		A235D92429BEA26F000E19A9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D92329BEA26F000E19A9 /* AuthService.swift */; };
+		A235D92629BEA292000E19A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D92529BEA292000E19A9 /* LoginViewController.swift */; };
+		A235D92829BEA575000E19A9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D92729BEA575000E19A9 /* RegisterViewController.swift */; };
+		A235D92B29BEA9D1000E19A9 /* KeychainAuthWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D92A29BEA9D1000E19A9 /* KeychainAuthWorker.swift */; };
+		A235D93429BEB0CC000E19A9 /* AuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D93329BEB0CC000E19A9 /* AuthServiceTests.swift */; };
+		A235D93B29BEF199000E19A9 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D93A29BEF199000E19A9 /* LoginViewControllerTests.swift */; };
+		A235D93D29BEF1A3000E19A9 /* RegisterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A235D93C29BEF1A3000E19A9 /* RegisterViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A235D90329BE9086000E19A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A235D8E429BE9085000E19A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A235D8EB29BE9085000E19A9;
-			remoteInfo = TruliooAssignment;
-		};
-		A235D90D29BE9086000E19A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A235D8E429BE9085000E19A9 /* Project object */;
 			proxyType = 1;
@@ -39,16 +35,19 @@
 		A235D8EC29BE9085000E19A9 /* TruliooAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruliooAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A235D8EF29BE9085000E19A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A235D8F129BE9085000E19A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A235D8F329BE9085000E19A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A235D8F629BE9085000E19A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A235D8F829BE9086000E19A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A235D8FB29BE9086000E19A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A235D8FD29BE9086000E19A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A235D90229BE9086000E19A9 /* TruliooAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruliooAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A235D90629BE9086000E19A9 /* TruliooAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliooAssignmentTests.swift; sourceTree = "<group>"; };
-		A235D90C29BE9086000E19A9 /* TruliooAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruliooAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A235D91029BE9086000E19A9 /* TruliooAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliooAssignmentUITests.swift; sourceTree = "<group>"; };
-		A235D91229BE9086000E19A9 /* TruliooAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruliooAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A235D92329BEA26F000E19A9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A235D92529BEA292000E19A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A235D92729BEA575000E19A9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A235D92A29BEA9D1000E19A9 /* KeychainAuthWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAuthWorker.swift; sourceTree = "<group>"; };
+		A235D93329BEB0CC000E19A9 /* AuthServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceTests.swift; sourceTree = "<group>"; };
+		A235D93A29BEF199000E19A9 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		A235D93C29BEF1A3000E19A9 /* RegisterViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControllerTests.swift; sourceTree = "<group>"; };
+		A235D93E29BFC569000E19A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +65,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A235D90929BE9086000E19A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A235D8E329BE9085000E19A9 = {
 			isa = PBXGroup;
 			children = (
+				A235D93E29BFC569000E19A9 /* README.md */,
 				A235D8EE29BE9085000E19A9 /* TruliooAssignment */,
 				A235D90529BE9086000E19A9 /* TruliooAssignmentTests */,
-				A235D90F29BE9086000E19A9 /* TruliooAssignmentUITests */,
 				A235D8ED29BE9085000E19A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +83,6 @@
 			children = (
 				A235D8EC29BE9085000E19A9 /* TruliooAssignment.app */,
 				A235D90229BE9086000E19A9 /* TruliooAssignmentTests.xctest */,
-				A235D90C29BE9086000E19A9 /* TruliooAssignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +90,11 @@
 		A235D8EE29BE9085000E19A9 /* TruliooAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				A235D92229BEA264000E19A9 /* Services */,
+				A235D92929BEA9C5000E19A9 /* Workers */,
+				A235D91F29BE9E47000E19A9 /* AuthModule */,
 				A235D8EF29BE9085000E19A9 /* AppDelegate.swift */,
 				A235D8F129BE9085000E19A9 /* SceneDelegate.swift */,
-				A235D8F329BE9085000E19A9 /* ViewController.swift */,
 				A235D8F529BE9085000E19A9 /* Main.storyboard */,
 				A235D8F829BE9086000E19A9 /* Assets.xcassets */,
 				A235D8FA29BE9086000E19A9 /* LaunchScreen.storyboard */,
@@ -113,18 +106,60 @@
 		A235D90529BE9086000E19A9 /* TruliooAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				A235D90629BE9086000E19A9 /* TruliooAssignmentTests.swift */,
+				A235D92F29BEAFD4000E19A9 /* Services */,
+				A235D92E29BEAFCE000E19A9 /* Workers */,
+				A235D92D29BEAFC6000E19A9 /* AuthModule */,
 			);
 			path = TruliooAssignmentTests;
 			sourceTree = "<group>";
 		};
-		A235D90F29BE9086000E19A9 /* TruliooAssignmentUITests */ = {
+		A235D91F29BE9E47000E19A9 /* AuthModule */ = {
 			isa = PBXGroup;
 			children = (
-				A235D91029BE9086000E19A9 /* TruliooAssignmentUITests.swift */,
-				A235D91229BE9086000E19A9 /* TruliooAssignmentUITestsLaunchTests.swift */,
+				A235D92529BEA292000E19A9 /* LoginViewController.swift */,
+				A235D92729BEA575000E19A9 /* RegisterViewController.swift */,
 			);
-			path = TruliooAssignmentUITests;
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		A235D92229BEA264000E19A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A235D92329BEA26F000E19A9 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A235D92929BEA9C5000E19A9 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				A235D92A29BEA9D1000E19A9 /* KeychainAuthWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		A235D92D29BEAFC6000E19A9 /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				A235D93A29BEF199000E19A9 /* LoginViewControllerTests.swift */,
+				A235D93C29BEF1A3000E19A9 /* RegisterViewControllerTests.swift */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		A235D92E29BEAFCE000E19A9 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		A235D92F29BEAFD4000E19A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A235D93329BEB0CC000E19A9 /* AuthServiceTests.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +200,6 @@
 			productReference = A235D90229BE9086000E19A9 /* TruliooAssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A235D90B29BE9086000E19A9 /* TruliooAssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A235D91C29BE9086000E19A9 /* Build configuration list for PBXNativeTarget "TruliooAssignmentUITests" */;
-			buildPhases = (
-				A235D90829BE9086000E19A9 /* Sources */,
-				A235D90929BE9086000E19A9 /* Frameworks */,
-				A235D90A29BE9086000E19A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A235D90E29BE9086000E19A9 /* PBXTargetDependency */,
-			);
-			name = TruliooAssignmentUITests;
-			productName = TruliooAssignmentUITests;
-			productReference = A235D90C29BE9086000E19A9 /* TruliooAssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,10 +215,7 @@
 					};
 					A235D90129BE9086000E19A9 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A235D8EB29BE9085000E19A9;
-					};
-					A235D90B29BE9086000E19A9 = {
-						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = A235D8EB29BE9085000E19A9;
 					};
 				};
@@ -221,7 +235,6 @@
 			targets = (
 				A235D8EB29BE9085000E19A9 /* TruliooAssignment */,
 				A235D90129BE9086000E19A9 /* TruliooAssignmentTests */,
-				A235D90B29BE9086000E19A9 /* TruliooAssignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +257,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A235D90A29BE9086000E19A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A235D8F429BE9085000E19A9 /* ViewController.swift in Sources */,
 				A235D8F029BE9085000E19A9 /* AppDelegate.swift in Sources */,
 				A235D8F229BE9085000E19A9 /* SceneDelegate.swift in Sources */,
+				A235D92829BEA575000E19A9 /* RegisterViewController.swift in Sources */,
+				A235D92B29BEA9D1000E19A9 /* KeychainAuthWorker.swift in Sources */,
+				A235D92629BEA292000E19A9 /* LoginViewController.swift in Sources */,
+				A235D92429BEA26F000E19A9 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A235D90729BE9086000E19A9 /* TruliooAssignmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A235D90829BE9086000E19A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A235D91329BE9086000E19A9 /* TruliooAssignmentUITestsLaunchTests.swift in Sources */,
-				A235D91129BE9086000E19A9 /* TruliooAssignmentUITests.swift in Sources */,
+				A235D93D29BEF1A3000E19A9 /* RegisterViewControllerTests.swift in Sources */,
+				A235D93B29BEF199000E19A9 /* LoginViewControllerTests.swift in Sources */,
+				A235D93429BEB0CC000E19A9 /* AuthServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +290,6 @@
 			isa = PBXTargetDependency;
 			target = A235D8EB29BE9085000E19A9 /* TruliooAssignment */;
 			targetProxy = A235D90329BE9086000E19A9 /* PBXContainerItemProxy */;
-		};
-		A235D90E29BE9086000E19A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A235D8EB29BE9085000E19A9 /* TruliooAssignment */;
-			targetProxy = A235D90D29BE9086000E19A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,14 +486,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = RoniL.TruliooAssignmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruliooAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TruliooAssignment";
@@ -508,10 +512,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = RoniL.TruliooAssignmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,40 +529,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruliooAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TruliooAssignment";
-			};
-			name = Release;
-		};
-		A235D91D29BE9086000E19A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = RoniL.TruliooAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TruliooAssignment;
-			};
-			name = Debug;
-		};
-		A235D91E29BE9086000E19A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = RoniL.TruliooAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TruliooAssignment;
 			};
 			name = Release;
 		};
@@ -582,15 +558,6 @@
 			buildConfigurations = (
 				A235D91A29BE9086000E19A9 /* Debug */,
 				A235D91B29BE9086000E19A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A235D91C29BE9086000E19A9 /* Build configuration list for PBXNativeTarget "TruliooAssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A235D91D29BE9086000E19A9 /* Debug */,
-				A235D91E29BE9086000E19A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
