@@ -19,7 +19,8 @@ If the app was a bit more complex and let's say I had two different type of logi
 
 ### UI
 For the UI I used storyboards.
-Why storyboards and not SwiftUI? Simply because in my opinion it is not "there" yet. SwiftUI has some way to go and in every OS update it get's changed a lot. Not to mention that the Preview Mode almost always crashes. On top of that, I am very proficient with interface builder and auto-layout.
+Why storyboards and not SwiftUI? I am very comfortable with UIKit and I make UI much faster with it. I still need to sharpen my skills with SwiftUI. 
+SwiftUI still has some issues I've seen and it has some way to go, although it is going in a good direction and I'd like to do more of it in the future.
 
 -----
 ## What I would add if I had more time
