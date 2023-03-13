@@ -7,9 +7,9 @@ This app consists of 3 screens:
 - Successful login
   
 
-
 Since the app is relatively simple, I attempted to write it in MVC and keep SOLID principles as much as possible.
 I would add couple more layers to make even more separation of concerns, but as with any project, there's always room for improvement, it just takes time (Which I currently don't have much of 😁)
+I tried to make everything as simple as possible so there's a lot to improve here. For real, big apps I would add more layers and design it better.
 
 ### Business logic
 I decided to use Keychain Services. Besides that being secure, it is also the way Apple recommends for storing credentials on an app locally.
@@ -30,7 +30,7 @@ Why storyboards and not SwiftUI? Simply because in my opinion it is not "there" 
 - Password rules? (Like length, special characters, and so)
 - Module configurators - For example, currently both `RegisterViewController` and `LoginViewController` are sharing the auth provider, since it's using the same logic. But I think it's better to have it separated into two different protocols. I didn't want to add the logic of initiating the `RegisterViewController` and give it dependencies from the `LoginViewController`. It's not the view's responsibility. Module Configurators would solve that. Could be really nice with a decent routing layer.
 - I think there's an option to query for all Keychain items, but I didn't try. If that's true, then we can check that in order to display `RegisterViewController` right away.
-
+- Better error handling. Currently the app only handles trivial errors and it doesn't do it well (Mostly just displaying the message). In a real case, I would probably make better error types and also check for more errors that Keychain Services may return.
 - Regarding the architecture, I think that if the project was a bit more complicated and I had a bit more time, I would probably choose VIP or MVVM with some additions. 
 -----
 ## To summarize
